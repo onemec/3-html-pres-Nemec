@@ -28,6 +28,55 @@
         <img class="mySlides" src="img/money.jpg">
         <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <div class="content">
+            <h1>Social Security</h1>
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+    <section class="mySlides fs-img2" id="full-screen-img2">
+        <img class="mySlides" src="img/failure.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <div class="content">
+            <h1>Social Security</h1>
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+    <section class="mySlides fs-img3" id="full-screen-img3">
+        <img class="mySlides" src="img/stock.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <div class="content">
+            <h1>Social Security</h1>
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+    <section class="mySlides fs-img4" id="full-screen-img4">
+        <img class="mySlides" src="img/broke.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <div class="content">
+            <h1>Social Security</h1>
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+    <section class="mySlides fs-img5" id="full-screen-img5">
+        <img class="mySlides" src="img/outsource.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <div class="content">
+            <h1>Social Security</h1>
+            <p>Lorem ipsum...</p>
+        </div>
+    </section>
+    <section class="mySlides fs-img6" id="full-screen-img6">
+        <img class="mySlides" src="img/gamble.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <div class="content">
+            <h1>Social Security</h1>
+            <p>Lorem ipsum...</p>
+        </div>
     </section>
     <script>
         // Get the video
@@ -56,9 +105,9 @@
         function showDivs(n) {
             var i;
             var x = document.getElementsByClassName("mySlides");
-            if (n > 2) {slideIndex = 1}
-            if (n < 1) {slideIndex = 2} ;
-            for (i = 0; i < 2; i++) {
+            if (n > 7) {slideIndex = 1}
+            if (n < 1) {slideIndex = 7} ;
+            for (i = 0; i < 7; i++) {
                 x[i].style.display = "none";
             }
             x[slideIndex-1].style.display = "block";
